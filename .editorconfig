@@ -1,0 +1,7 @@
+root = True
+
+[*.py]
+charset = uft-8
+indent_size = 4
+indent_style = space
+max_line_length = 119
