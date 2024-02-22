@@ -1,7 +1,9 @@
+from typing import List
+
 DEBUG = False
 SECRET_KEY = NotImplemented
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS: List[str] = ['*']
 
 # Application definition
 
@@ -42,6 +44,7 @@ TEMPLATES = [
     },
 ]
 
+ASGI_APPLICATION = 'cores.project.asgi.application'
 WSGI_APPLICATION = 'cores.project.wsgi.application'
 
 # Database
@@ -49,8 +52,14 @@ WSGI_APPLICATION = 'cores.project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': '/Users/subeomjeong/asurabalbalta/09-core-backend/core/db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'cores',
+        'USER': 'cores',
+        'PASSWORD': 'cores',
+        'HOST': 'localhost',
+        'PORT': '5432',
+        'ATOMIC_REQUESTS': True,
+        'CONN_MAX_AGE': 600,
     }
 }
 
