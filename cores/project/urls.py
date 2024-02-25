@@ -1,6 +1,8 @@
 from django.contrib import admin
-from django.urls import path
+from django.urls import include, path
 
-urlpatterns = [
-    path('admin/', admin.site.urls),
-]
+import cores.users.urls  # type: ignore # noqa: I100
+
+API_PREFIX = 'api/'
+
+urlpatterns = [path('admin/', admin.site.urls), path(API_PREFIX, include(cores.users.urls))]
