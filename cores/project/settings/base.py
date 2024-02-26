@@ -24,7 +24,12 @@ INSTALLED_APPS = [
     # Third party
     'corsheaders',
     'rest_framework',
+    'rest_framework_simplejwt',
     'django_filters',
+
+    # App
+    'cores.authentication.apps.AuthenticationConfig',
+    'cores.users.apps.UsersConfig',
 ]
 
 MIDDLEWARE = [
