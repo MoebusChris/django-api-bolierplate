@@ -21,4 +21,5 @@ include(
     'envvars.py',
     'logging.py',
     'rest_framework.py',
+    'aws.py',
 )
