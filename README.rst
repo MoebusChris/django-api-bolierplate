@@ -1,11 +1,13 @@
 Project setup
 =============
 
-#Django Rest API Boilerplate
+Django Rest API Boilerplate
+---------------------------
 
 Welcome to the Django Rest API Boilerplate! This repository provides a comprehensive template for setting up a backend API service using Django and Django Rest Framework, ready to be hosted on AWS S3. Designed to give developers a head start, this boilerplate includes essential configurations and dependencies to build robust and scalable web applications.
 
-##Features
+Features
+--------
 
 - **Django 4.2**: Leverage the latest features of Django to build powerful web applications.
 - **Django Rest Framework 3.14.0**: Create RESTful APIs with ease using a powerful, flexible toolkit.
@@ -16,14 +18,16 @@ Welcome to the Django Rest API Boilerplate! This repository provides a comprehen
 - **CORS Headers Configuration**: Included `django-cors-headers` for handling Cross-Origin Resource Sharing (CORS).
 - **Additional Libraries**: Support for image operations with Pillow, YAML configurations with PyYAML, and more.
 
-## Prerequisites
+Prerequisites
+-------------
 
 - Python 3.12: Ensure Python 3.12 or newer is installed on your system.
 - Poetry: This project uses Poetry for dependency management. Install Poetry before proceeding with the setup.
 
-## Setup
+Setup
+-----
 
-1. **Clone the Repository**: Start by cloning this repository to your local machine.
+1. **Clone the Repository**: Start by cloning this repository to your local machine.**
 
 .. code-block:: bash
 
@@ -32,7 +36,7 @@ Welcome to the Django Rest API Boilerplate! This repository provides a comprehen
     cd <repository-name>
     
 
-2. **Install Dependencies**: Use Poetry to install the required dependencies.
+2. **Install Dependencies**: Use Poetry to install the required dependencies.**
 
 .. code-block:: bash
 
@@ -40,9 +44,9 @@ Welcome to the Django Rest API Boilerplate! This repository provides a comprehen
     poetry install
     
 
-3. **Configure Settings**: Split settings are used for better configuration management. Adjust the settings in the `settings/` directory as per your environment.
+3. **Configure Settings**: Split settings are used for better configuration management. Adjust the settings in the `settings/` directory as per your environment.**
 
-4. **Run Migrations**: Setup your database schema.
+4. **Run Migrations**: Setup your database schema.**
 
 .. code-block:: bash
 
@@ -50,7 +54,7 @@ Welcome to the Django Rest API Boilerplate! This repository provides a comprehen
     poetry run python manage.py migrate
     
 
-5. **Run the Development Server**: Start the Django development server.
+5. **Run the Development Server**: Start the Django development server.**
 
 .. code-block:: bash
 
@@ -58,19 +62,22 @@ Welcome to the Django Rest API Boilerplate! This repository provides a comprehen
     poetry run python manage.py runserver
     
 
-6. **Deploy to AWS S3**: Follow the appropriate AWS documentation to configure your AWS S3 bucket for hosting.
+6. **Deploy to AWS S3**: Follow the appropriate AWS documentation to configure your AWS S3 bucket for hosting.**
 
-## Development Tools
+Development Tools
+-----------------
 
 - **Code Linting**: Flake8 for code linting.
 - **Pre-commit Hooks**: Ensure code quality with pre-commit hooks.
 - **Colorlog**: Enhanced logging with color support for better debugging.
 
-## License
+License
+-------
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Contribution
+Contribution
+------------
 
 Contributions are welcome! Please feel free to submit a pull request.
 
