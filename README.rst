@@ -35,8 +35,7 @@ Welcome to the Django Rest API Boilerplate! This repository provides a comprehen
 2. **Install Dependencies**: Use Poetry to install the required dependencies.
 
 .. code-block:: bash
-   :linenos:
-   :emphasize-lines: 3,5-6
+
 
     poetry install
     
@@ -46,8 +45,7 @@ Welcome to the Django Rest API Boilerplate! This repository provides a comprehen
 4. **Run Migrations**: Setup your database schema.
 
 .. code-block:: bash
-   :linenos:
-   :emphasize-lines: 3,5-6
+
 
     poetry run python manage.py migrate
     
@@ -55,8 +53,7 @@ Welcome to the Django Rest API Boilerplate! This repository provides a comprehen
 5. **Run the Development Server**: Start the Django development server.
 
 .. code-block:: bash
-   :linenos:
-   :emphasize-lines: 3,5-6
+
 
     poetry run python manage.py runserver
     
