@@ -1,11 +1,11 @@
 Project setup
 =============
 
-# Django Rest API Boilerplate
+#Django Rest API Boilerplate
 
 Welcome to the Django Rest API Boilerplate! This repository provides a comprehensive template for setting up a backend API service using Django and Django Rest Framework, ready to be hosted on AWS S3. Designed to give developers a head start, this boilerplate includes essential configurations and dependencies to build robust and scalable web applications.
 
-## Features
+##Features
 
 - **Django 4.2**: Leverage the latest features of Django to build powerful web applications.
 - **Django Rest Framework 3.14.0**: Create RESTful APIs with ease using a powerful, flexible toolkit.
