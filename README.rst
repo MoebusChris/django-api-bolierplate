@@ -35,23 +35,32 @@ Welcome to the Django Rest API Boilerplate! This repository provides a comprehen
 
 2. **Install Dependencies**: Use Poetry to install the required dependencies.
 
-    ```bash
+.. code-block:: python
+   :linenos:
+   :emphasize-lines: 3,5-6
+
     poetry install
-    ```
+    
 
 3. **Configure Settings**: Split settings are used for better configuration management. Adjust the settings in the `settings/` directory as per your environment.
 
 4. **Run Migrations**: Setup your database schema.
 
-    ```bash
+.. code-block:: python
+   :linenos:
+   :emphasize-lines: 3,5-6
+
     poetry run python manage.py migrate
-    ```
+    
 
 5. **Run the Development Server**: Start the Django development server.
 
-    ```bash
+.. code-block:: python
+   :linenos:
+   :emphasize-lines: 3,5-6
+
     poetry run python manage.py runserver
-    ```
+    
 
 6. **Deploy to AWS S3**: Follow the appropriate AWS documentation to configure your AWS S3 bucket for hosting.
 
@@ -63,7 +72,7 @@ Welcome to the Django Rest API Boilerplate! This repository provides a comprehen
 
 ## Author
 
-Subeom Jeong - [MoebusChris@users.noreply.github.com](mailto:MoebusChris@users.noreply.github.com)
+cGray
 
 ## License
 
