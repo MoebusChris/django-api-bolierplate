@@ -26,8 +26,7 @@ Welcome to the Django Rest API Boilerplate! This repository provides a comprehen
 1. **Clone the Repository**: Start by cloning this repository to your local machine.
 
 .. code-block:: bash
-   :linenos:
-   :emphasize-lines: 3,5-6
+
 
     git clone <repository-url>
     cd <repository-name>
