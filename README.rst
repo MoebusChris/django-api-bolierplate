@@ -25,7 +25,7 @@ Welcome to the Django Rest API Boilerplate! This repository provides a comprehen
 
 1. **Clone the Repository**: Start by cloning this repository to your local machine.
 
-.. code-block:: python
+.. code-block:: bash
    :linenos:
    :emphasize-lines: 3,5-6
 
@@ -35,7 +35,7 @@ Welcome to the Django Rest API Boilerplate! This repository provides a comprehen
 
 2. **Install Dependencies**: Use Poetry to install the required dependencies.
 
-.. code-block:: python
+.. code-block:: bash
    :linenos:
    :emphasize-lines: 3,5-6
 
@@ -46,7 +46,7 @@ Welcome to the Django Rest API Boilerplate! This repository provides a comprehen
 
 4. **Run Migrations**: Setup your database schema.
 
-.. code-block:: python
+.. code-block:: bash
    :linenos:
    :emphasize-lines: 3,5-6
 
@@ -55,7 +55,7 @@ Welcome to the Django Rest API Boilerplate! This repository provides a comprehen
 
 5. **Run the Development Server**: Start the Django development server.
 
-.. code-block:: python
+.. code-block:: bash
    :linenos:
    :emphasize-lines: 3,5-6
 
@@ -69,10 +69,6 @@ Welcome to the Django Rest API Boilerplate! This repository provides a comprehen
 - **Code Linting**: Flake8 for code linting.
 - **Pre-commit Hooks**: Ensure code quality with pre-commit hooks.
 - **Colorlog**: Enhanced logging with color support for better debugging.
-
-## Author
-
-cGray
 
 ## License
 
