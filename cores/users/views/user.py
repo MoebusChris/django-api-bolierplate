@@ -2,9 +2,9 @@ from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from cores.authentication.serializers.token import TokenSerializer  # type: ignore # noqa: I100
+from cores.general.authentication import get_user_auth_data  # type: ignore # noqa: I100
 
-from ..serializers.user import UserReadSerializer, UserWriteSerializer
+from ..serializers.user import UserWriteSerializer
 
 
 class UserDetailView(APIView):
@@ -15,10 +15,4 @@ class UserDetailView(APIView):
 
         if serializer.is_valid(raise_exception=True):
             user = serializer.save()
-
-            reponse = {
-                'authentication': TokenSerializer(user).data,
-                'user': UserReadSerializer(user).data,
-            }
-
-        return Response(reponse, status=status.HTTP_201_CREATED)
+        return Response(get_user_auth_data(user), status=status.HTTP_201_CREATED)
