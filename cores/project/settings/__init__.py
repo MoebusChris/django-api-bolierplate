@@ -20,4 +20,6 @@ include(
     'docker.py',
     'envvars.py',
     'logging.py',
+    'rest_framework.py',
+    'aws.py',
 )
