@@ -83,5 +83,10 @@ Contributions are welcome! Please feel free to submit a pull request.
 
 ---
 
+Extra Info
+----------
+
 mkdir -p local
 cp core/project/settings/templates/settings.dev.py ./local/settings.dev.py
+
+DEBUG = True when in dev mode.
