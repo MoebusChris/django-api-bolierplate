@@ -34,7 +34,7 @@ Setup
 
     git clone <repository-url>
     cd <repository-name>
-    
+
 
 2. **Install Dependencies**: Use Poetry to install the required dependencies.**
 
@@ -42,7 +42,7 @@ Setup
 
 
     poetry install
-    
+
 
 3. **Configure Settings**: Split settings are used for better configuration management. Adjust the settings in the `settings/` directory as per your environment.**
 
@@ -52,7 +52,7 @@ Setup
 
 
     poetry run python manage.py migrate
-    
+
 
 5. **Run the Development Server**: Start the Django development server.**
 
@@ -60,7 +60,7 @@ Setup
 
 
     poetry run python manage.py runserver
-    
+
 
 6. **Deploy to AWS S3**: Follow the appropriate AWS documentation to configure your AWS S3 bucket for hosting.**
 

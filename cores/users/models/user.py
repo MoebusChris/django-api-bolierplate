@@ -4,4 +4,4 @@ from ..managers.user import UserManager
 
 
 class User(AbstractUser):
-    objects = UserManager
+    objects = UserManager()

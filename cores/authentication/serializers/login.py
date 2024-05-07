@@ -13,7 +13,7 @@ class LoginSerializer(serializers.Serializer):
         pass
 
     def validate(self, attrs):
-        user = authenticate(username=attrs.get('username', password=attrs.get('password')))
+        user = authenticate(username=attrs.get('username'), password=attrs.get('password'))
 
         if not user:
             raise serializers.ValidationError('Incorrect username or password.')
